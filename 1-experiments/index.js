@@ -12,38 +12,38 @@ const NAN = NaN
 console.log("---- Use typeof operator ----")
 // TODO write typeof statements for all constants values following 
 // the final comma in the log statement
-console.log("STRING_VALUE",STRING_VALUE, "is of type", typeof STRING_VALUE );
-console.log("EMPTY_STRING_VALUE",EMPTY_STRING_VALUE, "is of type", typeof EMPTY_STRING_VALUE );
-console.log("INT_VALUE",INT_VALUE, "is of type", typeof INT_VALUE );
-console.log("INT_ZERO",INT_ZERO, "is of type", typeof INT_ZERO );
-console.log("FLOAT_VALUE",FLOAT_VALUE, "is of type", typeof FLOAT_VALUE );
-console.log("BOOL_TRUE",BOOL_TRUE, "is of type", typeof BOOL_TRUE);
-console.log("BOOL_FALSE",BOOL_FALSE, "is of type",typeof BOOL_FALSE);
-console.log("UNDEFINED",UNDEFINED, "is of type", typeof UNDEFINED );
-console.log("NULL",NULL, "is of type", typeof NULL);
-console.log("NAN",NAN, "is of type", typeof NAN);
+console.log("STRING_VALUE", STRING_VALUE, "is of type", typeof STRING_VALUE);
+console.log("EMPTY_STRING_VALUE", EMPTY_STRING_VALUE, "is of type", typeof EMPTY_STRING_VALUE);
+console.log("INT_VALUE", INT_VALUE, "is of type", typeof INT_VALUE);
+console.log("INT_ZERO", INT_ZERO, "is of type", typeof INT_ZERO);
+console.log("FLOAT_VALUE", FLOAT_VALUE, "is of type", typeof FLOAT_VALUE);
+console.log("BOOL_TRUE", BOOL_TRUE, "is of type", typeof BOOL_TRUE);
+console.log("BOOL_FALSE", BOOL_FALSE, "is of type", typeof BOOL_FALSE);
+console.log("UNDEFINED", UNDEFINED, "is of type", typeof UNDEFINED);
+console.log("NULL", NULL, "is of type", typeof NULL);
+console.log("NAN", NAN, "is of type", typeof NAN);
 
 
 console.log("---- Test add operator with strings ----")
 //TODO implement the addition of types according the quoted portion of the log statement
 // log string + string
-console.log ("string + string ", STRING_VALUE + STRING_VALUE);
+console.log("string + string ", STRING_VALUE + STRING_VALUE);
 // log add string to int
 console.log("string + int ", STRING_VALUE + INT_VALUE);
 // log int + string
-console.log("int + string ", INT_VALUE + STRING_VALUE );
+console.log("int + string ", INT_VALUE + STRING_VALUE);
 // log int + int + string
-console.log("int + int + string ", INT_VALUE + INT_VALUE + STRING_VALUE );
+console.log("int + int + string ", INT_VALUE + INT_VALUE + STRING_VALUE);
 // log add string to float
-console.log("string + float ", STRING_VALUE + FLOAT_VALUE );
+console.log("string + float ", STRING_VALUE + FLOAT_VALUE);
 // log add string to true
-console.log("string + true ", STRING_VALUE + BOOL_TRUE );
+console.log("string + true ", STRING_VALUE + BOOL_TRUE);
 // log add string to false
 console.log("string + false ", STRING_VALUE + BOOL_FALSE);
 // log add string to undefined
-console.log("string + undefined ", STRING_VALUE + UNDEFINED );
+console.log("string + undefined ", STRING_VALUE + UNDEFINED);
 // log add string to null
-console.log("string + null ", STRING_VALUE + NULL );
+console.log("string + null ", STRING_VALUE + NULL);
 
 console.log("---- assignment operator ----")
 let s1 = STRING_VALUE
@@ -66,11 +66,11 @@ console.log()
 console.log("---- Test truthy/falsy using ternary operator ----")
 console.log("string is  ", STRING_VALUE ? TRUE : FALSE);
 console.log("int is ", INT_VALUE ? TRUE : FALSE);
-console.log("empty string is  ", EMPTY_STRING_VALUE ? TRUE : FALSE );
-console.log("undefined is ", UNDEFINED ? TRUE : FALSE );
-console.log("null is ",  NULL ? TRUE : FALSE);
-console.log("0 is  ", INT_ZERO ? TRUE : FALSE );
-console.log("NaN is   ", NULL ? TRUE : FALSE );
+console.log("empty string is  ", EMPTY_STRING_VALUE ? TRUE : FALSE);
+console.log("undefined is ", UNDEFINED ? TRUE : FALSE);
+console.log("null is ", NULL ? TRUE : FALSE);
+console.log("0 is  ", INT_ZERO ? TRUE : FALSE);
+console.log("NaN is   ", NULL ? TRUE : FALSE);
 
 process.exit()
 
