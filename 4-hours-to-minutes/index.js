@@ -9,13 +9,20 @@ let input = getargs.getIntegerArg();
 /**** Do not modify anything above this line ****/
 
 // test that input is a number
-// TODO check input using isNaN and NOT Number.isInteger 
-if () {
-  // TODO use console.log to provide a usage statement when user forgets to enter a number
+
+if ( isNaN(input) || !Number.isInteger(input)) {
+  console.log(`node 4-hours-to-minutes: please put integer and no decimals `);
+ 
 } else {
+  let hours = (input / 60).toFixed(0);
+  let minutes = input % 60;
+
+  let hrs = (hours == 1) ? "hour" : "hours";
+  let mins = (minutes == 1) ? "minute" : "minutes";
   // TODO: create a variable named hours and calculate the whole number of hours using the / operator and .toFixed
   // TODO: create a variable named minutes and calculate the number of minutes using the % (modulo) operator
   // TODO: create a variable named hrs and use a ternary expression to determine whether there are singular or plural hours
   // TODO: create a variable named mins and use a ternary expression to determine whether there are singular ot plural minutes
   console.log(`${input} minutes is ${hours} ${hrs} ${minutes} ${mins} `)
 }
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor
