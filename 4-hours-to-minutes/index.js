@@ -14,7 +14,7 @@ if ( isNaN(input) || !Number.isInteger(input)) {
   console.log(`node 4-hours-to-minutes: please put integer and no decimals `);
  
 } else {
-  let hours = (input / 60).toFixed(0);
+  let hours = Math.floor(input / 60);
   let minutes = input % 60;
 
   let hrs = (hours == 1) ? "hour" : "hours";
