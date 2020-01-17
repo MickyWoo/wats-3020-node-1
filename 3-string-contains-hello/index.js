@@ -8,7 +8,7 @@ let input = getargs.getStringArg()
 
 /**** Do not modify anything above this line ****/
 
-// TODO make sure that the user entered a string
+// ! is "not" so if Input is NOT String because input = get string.....
 if ( !input  ) {
   console.log( "node-3-straing-contains-hello <pls enter string> and use spaces with quotes" );
  
@@ -18,12 +18,14 @@ if ( !input  ) {
 // if it does report back the position in the string where it begins
 
 else {
-  // TODO write a logical expression to test if the input contains a "hello"
+
+  // this was a little hard to find out by myself.... didnt know how to find solution properly
   if (input.indexOf('hello') > -1) {
     console.log(`hello was found at position ${input.indexOf('hello')} of string ${input}`);
-    // TODO use console.log and a template literal at what position the hello was found
+
+    
   } else {
     console.log(`hello was not found at string ${input} `)
-    // TODO use console.log to indicate that the hello was not found
+    
   }
 }
