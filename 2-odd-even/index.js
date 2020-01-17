@@ -21,9 +21,9 @@ if (isNaN(input) || !Number.isInteger(input)) {
 
   if (input % 2 == 0) {
 
-    console.log(  `${input} is even!` );
+    console.log(`${input} is even!`);
   } else {
-    console.log( ` ${input} is odd`);
+    console.log(` ${input} is odd`);
 
   }
 }
