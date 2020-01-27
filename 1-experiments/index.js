@@ -64,13 +64,13 @@ console.log()
 
 //TODO add the ternary operation to see how JS converts non boolean types into truthy/falsy
 console.log("---- Test truthy/falsy using ternary operator ----")
-console.log("string is  ", STRING_VALUE ? TRUE : FALSE);
-console.log("int is ", INT_VALUE ? TRUE : FALSE);
-console.log("empty string is  ", EMPTY_STRING_VALUE ? TRUE : FALSE);
-console.log("undefined is ", UNDEFINED ? TRUE : FALSE);
-console.log("null is ", NULL ? TRUE : FALSE);
-console.log("0 is  ", INT_ZERO ? TRUE : FALSE);
-console.log("NaN is   ", NULL ? TRUE : FALSE);
+console.log("string is  ", STRING_VALUE ? true : false);
+console.log("int is ", INT_VALUE ? true : false);
+console.log("empty string is  ", EMPTY_STRING_VALUE ? true : false);
+console.log("undefined is ", UNDEFINED ? true : false);
+console.log("null is ", NULL ? true : false);
+console.log("0 is  ", INT_ZERO ? true : false);
+console.log("NaN is   ", NULL ? true : false);
 
 process.exit()
 
